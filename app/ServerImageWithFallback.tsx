@@ -1,5 +1,5 @@
 import Image, {ImageProps} from "next/image";
-import {StaticImport} from "next/dist/shared/lib/get-image-props";
+import {StaticImport} from "next/dist/shared/lib/get-img-props";
 import fs from "fs";
 import path from "path";
 
