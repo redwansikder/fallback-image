@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex  flex-col items-center justify-between p-24">
       <ul>
-        {[1,2,3,"https://tibet.net/wp-content/uploadszzz/2020/11/potala-TransBG-2.png"].map((n,index)=>{
+        {[1,2,3,4,"https://tibet.net/wp-content/uploadszzz/2020/11/potala-TransBG-2.png"].map((n,index)=>{
           let src;
           if (typeof n === 'string') {
             src = n;
